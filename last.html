@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For you</title>
+</head>
+<body>
+    <div id="miElemento">
+    <img class="carta" onclick="toggleVisualizacion()" src="images/carta-de-amor.png" alt="">
+    </div>
+    <div id="Text">
+        <h1>Любовь Моя,
+
+Ты-тот постоянный ритм, который задает ритм моим дням, мелодия, которая превращает обычное в необычное. До тебя моя жизнь была похожа на наполовину сочиненную песню; теперь каждый твой день-это совершенная симфония. Ты мое безопасное убежище во времена штормов и мой величайший праздник в моменты радости.
+
+Твоя любовь полностью изменила мой мир. Нет такой задачи, с которой я не хотел бы сталкиваться, и нет цели, которой я не хотел бы достигать, потому что я знаю, что ты рядом со мной. Ты мое доверенное лицо, мой сообщник, мой покой после хаоса и моя мотивация стать лучше. В твоем взгляде я нахожу дом, который всегда искал, в твоих объятиях-спокойствие, в котором я нуждаюсь, а в твоей улыбке-повод улыбнуться и мне.
+
+Вы-это "что-то еще", которое придает всему смысл. Без тебя ничто не имело бы такого же блеска. Потому что ты не просто дополняешь мою жизнь, ты придаешь ей смысл. Ты, просто, самое главное.
+
+Я люблю тебя</h1>
+        
+    </div>
+    <script>
+function toggleVisualizacion() {
+    const elemento = document.getElementById('miElemento');
+    const texto = document.getElementById('Text')
+    if (elemento.classList.contains('oculto')) {
+        // Mostrar
+        elemento.style.display = 'block';
+        setTimeout(() => {
+            elemento.classList.remove('oculto');
+        }, 10);
+    } else {
+        // Ocultar
+        elemento.classList.add('oculto');
+        setTimeout(() => {
+            elemento.style.display = 'none';
+            texto.style.display = 'block';
+            
+        }, 500); // Tiempo igual a la transición
+    }
+}
+</script>
+</body>
+</html>

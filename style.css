@@ -1,0 +1,406 @@
+@media (max-width:900px) {
+    .primero{
+        background-image: url('/images/1.png');
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+      .contenedor{
+        
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    padding: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 300px;
+      }
+     
+      .contenedor img{
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;   
+        border-radius: 20px;    
+      }
+
+      .contenedor .foto{
+        width: 150px;
+        height: 90px;
+        border-color: black;
+        border-style: double;
+      }
+
+        .segundo{
+            background-image: url('/images/2.png');
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        }
+
+        .texto{
+            position: relative;
+    background: rgba(255, 255, 255, 0.473);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100px;
+    
+        
+        }
+
+
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .tercero::before{
+            background-image: url('images/flores.jpg');
+             content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+    z-index: -1;
+        }
+
+        .volver{
+            width: 90px;
+            background-color: aliceblue;
+            border-radius: 50px;
+        }
+        
+        .flores{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: double;
+            width: 200px;
+        }
+
+        .textFlores{
+            background-color: aliceblue;
+            margin-left: 40px;
+            margin-right: 40px;
+            border-radius: 25px;
+            border-style:dashed ;
+
+        }
+        .textFlores h1{
+            margin-left: 20px;
+        }
+
+        .cuatro::before{
+           background-image: url('images/leonaFondo.png');
+           content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    z-index: -1;
+            
+            
+       
+        
+        }
+
+        
+        .animal{
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50px;
+            border-style: groove;
+            
+        }
+
+        .textAnimal{
+            background-color: aliceblue;
+            border-radius: 10px;
+        }
+        .textAnimal h1{
+            margin-left: 10px;
+        }
+
+        .quinto{
+             background-image: url('images/💕\ Kawaii\ Hello\ Kitty\ Gaming\ Corner.jpg');
+            
+    
+            background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed
+        }
+
+
+        .game{
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50px;
+            border-style:solid;
+        }
+
+        .textGame{
+            background-color: aliceblue;
+            border-radius: 20px;
+            border-style: solid;
+        }
+
+
+        .textGame h1{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+
+        
+
+        .sexto::before{
+            content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/5b27f025-e566-4041-99fa-c0144254490d.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+        }
+
+
+
+        .place{
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 40%;
+            border: 5px;
+            border-style:double ;
+            box-shadow: 100px;
+            
+        }
+
+        .placeText{
+            background-color: aliceblue;
+            border-radius: 20px;
+            border-style: solid;
+            margin-left: 20px;
+            margin-right: 20px;
+        
+        }
+
+        .placeText h1{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+
+
+        .septimo::before{
+            background-image: url('/images/Football\ is\ Life.jpg');
+             content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+    z-index: -1;
+
+        }
+
+
+        .sport{
+            border-radius: 25%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            border-style: inset;
+        }
+
+        .sportText{
+           background-color: aliceblue;
+            border-bottom-right-radius: 25%;
+            border-top-left-radius: 25%;
+            border-style: solid;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+
+        .sportText h1{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+
+
+        .octavo::before{
+            background-image: url('/images/Beauty\ Boutique\ _\ Cosmetics\ and\ Beauty\ Products\ for\ Sale\ -\ Shop\ Now!.jpg');
+             content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+    z-index: -1;
+        }
+
+
+        .makiaje{
+            width: 300px;
+            border-radius: 50px;
+            height:400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: double;
+        }
+
+        .makiajeText{
+            background-color: aliceblue;
+            border-radius: 20%;
+            border-style: solid;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .makiajeText h1{
+            margin-left: 20px;
+        }
+
+        
+        .noveno::before{
+            background-image: url('images/2e290135-4d72-42ca-a948-04c231f55410.jpg');
+             content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+    z-index: -1;
+        }
+
+
+
+
+
+        .psicologia{
+            border-radius: 10%;
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+           .decimo::before{
+             background-image: url('images/💼\ AI\ Inequality_\ The\ Digital\ Divide\ Grows.jpg');
+             content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+    z-index: -1;
+           } 
+
+
+           .adidas::before{
+             background-image: url('images/dad5b00d-c61e-47dd-b927-dce9c1169c09.jpg');
+             content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(3px);
+    z-index: -1;
+           }
+
+           .carta{
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 400px;
+           }
+
+
+           #miElemento {
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+#miElemento.oculto {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#Text{
+    display: none;
+    border-style:double;
+    border-radius: 10px;
+}
+#Text h1{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
+}
